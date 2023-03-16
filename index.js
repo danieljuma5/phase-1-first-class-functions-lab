@@ -35,5 +35,5 @@ const fareTripler = function tripler(int) {
 function selectDifferentDrivers(drivers, fn) {
   return fn(drivers);
 }
-const firstTwoDrivers = selectDifferentDrivers(driver, returnFirstTwoDrivers);
+const firstTwoDrivers = selectDifferentDrivers(drivers, returnFirstTwoDrivers);
 const lastTwodrivers =  selectDifferentDrivers(drivers, returnLastTwoDrivers);
